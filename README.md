@@ -44,6 +44,10 @@ Most conventions are described on the [meteor-typescript-libs](https://github.co
 However, the speed of compilation has become so far that it is not worth the
 effort to write definition `.d.ts` files manually anymore.
 
+As long as you reference other files from `main.ts` using the 
+`<reference path=".../my-file.ts" />` syntax, Typescript will automatically add
+them to the watch-list and continue to watch them.
+
 ## Acknowledgements
 
 This project relies on:
