@@ -4,10 +4,10 @@ This is a seed project which you can use to start your own project with
 Typescript and Meteor.
 
 Though it will work with most versions of Typescript and Meteor, I have tested
-it with satisfactory results with:
+it with:
 
- 1. Meteor 1.0.2.1 & 1.0
- 2. Typescript 1.4.1.0 & 1.3
+ 1. Meteor versions: `<=1.1.0.2, >=1.0`
+ 2. Typescript versions: `1.5.0-beta<=, >=1.3`
 
 With Typescript version `<1.1`, the delays in compilation become intolerable
 for a large project.
