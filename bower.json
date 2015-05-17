@@ -1,5 +1,6 @@
 {
   "name": "meteor-typescript-seed",
+  "private": true,
   "dependencies": {
     "DefinitelyTyped": "*",
     "meteor-typescript-libs": "meteor-typescript/meteor-typescript-libs"
